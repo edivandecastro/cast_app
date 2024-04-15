@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #00184a;
+  padding: 20px 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  background-color: #0e92bd;
+}
+
+.navbar {
+  background-color: #2ab4e6;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.navbar ul li {
+  margin-bottom: 10px;
+}
+
+.navbar ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar ul li a:hover {
+  background-color: #0e92bd;
+}
+
+.content {
+  margin-top: 100px;
+  margin-left: 220px;
+  padding: 0px;
+}
+
+footer {
+  background-color: #00184a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #2ab4e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0e92bd;
+}
+
+.login-success {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+.pending {
+  border: 2px solid #ff9800;
+}
+
+.doing {
+  border: 2px solid #2196f3;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  color: #333;
+}
+
+.welcome p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
