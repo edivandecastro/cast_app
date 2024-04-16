@@ -3,22 +3,24 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background-color: #00184a;
-  padding: 20px 0;
-}
-
 .topbar {
+  background-color: #00184a;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .topbar .logo h1 {
+    font-size: 24px;
+  }
 }
 
 .logo h1 {
   color: #fff;
   margin: 0;
+  font-size: 28px;
 }
 
 .nav-links {
@@ -47,15 +49,16 @@ header {
   background-color: #2ab4e6;
   width: 200px;
   height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .navbar ul {
   list-style: none;
   padding: 0;
   margin: 20px 0;
+}
+
+.mid {
+  display: flex;
 }
 
 .navbar ul li {
@@ -77,6 +80,7 @@ header {
   margin-top: 100px;
   margin-left: 220px;
   padding: 0px;
+  width: 50%;
 }
 
 footer {
